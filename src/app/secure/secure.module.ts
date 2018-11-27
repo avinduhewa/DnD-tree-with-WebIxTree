@@ -9,6 +9,7 @@ import { NavBarModule } from './shared/nav-bar/nav-bar.module';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { DataTableComponent } from './data-table/data-table.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
   ],
   declarations: [
     SecureComponent,
-    DataTableComponent
+    DataTableComponent,
+    TableComponent
 
   ]
 })
